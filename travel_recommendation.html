@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travelRecomendation</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+     <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-plane"></i> TravelBloom
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Enter a destination or keyword">
+            <button class="search-btn">Search</button>
+            <button class="reset-btn">Clear</button>
+        </div>
+    </nav>
+
+     <!-- Section d'accueil -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>EXPLORE <br> DREAM <br> DESTINATION</h1>
+            <p>
+                It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, 
+                while pursuing the coveted destination that captures the heart and ignites a sense of wonder.
+            </p>
+            <button class="btn">BOOK NOW</button>
+        </div>
+    </header>
+        <!-- Section À propos -->
+    <header class="about-hero">
+        <div class="about-content">
+            <h1>ABOUT US</h1>
+            <p>
+                Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent services and products to our customers. 
+                <strong>Our mission is to provide the best experience</strong> for people traveling to different destinations around the world. 
+                Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in putting our customers first and working together to achieve our goals.
+            </p>
+        </div>
+    </header>
+
+    <!-- Section Équipe -->
+    <section class="team">
+        <h2>Our Team</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="John Doe">
+                <h3>John Doe</h3>
+                <p>CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Celina Thomas">
+                <h3>Celina Thomas</h3>
+                <p>Team Lead</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Mike Tyson">
+                <h3>Mike Tyson</h3>
+                <p>Branding Head</p>
+            </div>
+        </div>
+    </section>
+        <!--contactez nous-->
+         <div class="container">
+        <h2>Contactez-nous</h2>
+        <form id="contactForm">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Votre message" required></textarea>
+            
+            <button type="submit">Soumettre</button>
+        </form>
+    </div>
+    <script src="travel_recommendation.j"></script>
+</body>
+</html>
